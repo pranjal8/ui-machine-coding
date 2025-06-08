@@ -1,4 +1,5 @@
 import React from "react";
+import ProgressBar from "./components/ProgressBar";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </li>
         <li> Each bar takes approximately 2000ms to completely fill up.</li>
       </ul>
+      <ProgressBar/>
     </div>
   );
 }
